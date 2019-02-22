@@ -1,5 +1,8 @@
 import React from 'react';
 import Tab from './Tab';
+
+
+
 const Tabs = props => {
   return (
     <div className="tabs">
