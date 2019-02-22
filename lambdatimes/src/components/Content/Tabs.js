@@ -2,6 +2,7 @@ import React from 'react';
 import Tab from './Tab';
 import { consolidateStreamedStyles } from 'styled-components';
 import '../Content/Tabs.css';
+import PropTypes from 'prop-types';
 
 
 
@@ -27,4 +28,10 @@ const Tabs = props => {
 };
 
 // Make sure to use PropTypes to validate your types!
+
+Tabs.PropTypes = {
+  tabs: PropTypes.arrayOf(PropTypes.string)
+}
+
+
 export default Tabs;
